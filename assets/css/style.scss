@@ -1,0 +1,43 @@
+#container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    .button{
+        display: flex;
+        justify-content: center;
+        .btn{
+            margin: 0 10px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            text-align: center;
+        }
+    }
+    .check{
+        margin-top: 20px;
+    }
+    .green {
+        font-size: xx-large;
+        color: green;
+        font-weight: bolder;
+    }
+    .remenber{
+        display: flex;
+        justify-content: center;
+        .span{
+            margin: 10px;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            //text-align: center;
+            border: black solid 1px;
+            //background-color: red;
+        }
+    }
+}
+
+
